@@ -1,0 +1,21 @@
+{
+  "name": "tianheng2017/tron-verify",
+  "description": " php EC recorver library for tron based on Tron",
+  "require": {
+    "php": ">=7",
+    "kornrunner/keccak": "^1.0",
+    "simplito/elliptic-php": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tron\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tianheng2017",
+      "email": "tianheng2017@gmail.com"
+    }
+  ]
+}
